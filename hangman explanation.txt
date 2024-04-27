@@ -1,0 +1,50 @@
+- The code starts by asking the user how many guesses they have left.
+
+ - The code then prints out a message to the user telling them how many guesses they have left and that their time is running out. 
+
+- If the user has guessed the word, it will print "Yeah! - You got it!" - and break from this loop.
+ 
+- If the number of wrong guesses exceeds MAX_TRIES, then an error message is printed to tell the user that there are no more tries left in which case they should quit guessing.
+
+- The code is a function that will ask the user to guess words. 
+
+- If the user guesses a word, they will be given an appropriate message and then the program will continue on.
+
+ - The code begins by declaring variables for MAX_TRIES and num_of_wrong_guesses with initial values of 5 and 0 respectively. 
+
+- The loop starts with the line: 
+
+- // Check if userguessed the word.
+
+ - if (word==unknown) - { - cout << word << endl; }
+
+ - This loop checks if the user has guessed any of the words in order to see if they have won or not. 
+
+- If it is true, then we print out their guess as well as
+
+- The code starts by declaring a variable named guessword.
+
+ - This is where the user will enter their guess for the secret word. - The code then declares a string called secretword and initializes it to be empty
+, which means that there is no text in this string yet.
+
+ - Next, the code declares a variable named len, which represents how many characters are in the secret word. 
+
+- The next line of code starts with an if statement that checks whether or not there's any text in the input field (guess). 
+
+- If there isn't anything entered into this field yet, then we'll assume that it's blank and go on to check what character was typed last before checking again later on when they type something else into this field.
+
+ - After doing so, we store whatever character was typed last as i and loop through all of them until we find one that matches our guess for "the".
+
+ - Then we increment i by 1 because each time through our loop counts as one iteration of our while loop condition.
+
+ - After finding out what letter was typed last before checking again later on when they type something else into this field, we compare it against 't'. 
+
+- If it doesn't match up with 't', then nothing happens; otherwise, we continue onto step 2:
+
+- The code is a function that takes in a character as input and the secret word.
+
+ - It then returns the number of characters matched.
+
+ - The code also provides an if statement that checks to see if the letter is already guessed, which will return zero if it has been guessed.
+
+
